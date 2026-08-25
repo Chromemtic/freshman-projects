@@ -2,3 +2,4 @@ Date: August 17 2026 (First Practice) | Time ran for: 20.0 | Distance type: mile
 Date: August 18 2026 (Second Practice) | Time ran for: 55.0 | Distance type: miles | Distance: 3.5 | Pace: 15.71 | Training type: Road Endurance
 Date: August 19 (The PM/AM Coach incident) | Time ran for: 120.0 | Distance type: miles | Distance: 2.7 | Pace: 44.44 | Training type: Walk/Rehab (Injured)
 Date: August 21 2026 (Canceled, Rain) | Time ran for: 20 | Distance type: miles | Distance: 1.2 | Pace: 16.67 | Training type: Practice Canceled
+Date: August 24 (First Day of School) | Time ran for: 35 | Distance type: miles | Distance: 4.6 | Pace: 7.61 | Training type: 1000m walk/run
