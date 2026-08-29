@@ -1,1 +1,1 @@
-# cross-country-tracker
+Freshman Projects
