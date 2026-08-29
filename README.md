@@ -1,1 +1,1 @@
-Freshman Projects
+# Freshman Projects
