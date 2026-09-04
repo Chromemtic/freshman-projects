@@ -6,3 +6,5 @@ Date: August 24 (First Day of School) | Time ran for: 35 | Distance type: miles 
 Date: August 25 (Fundraiser) | Time ran for: 20 | Distance type: miles | Distance: 2.0 | Pace: 10.00 | Training type: Strength Conditioning
 Date: August 26 (Practice) | Time ran for: 10 | Distance type: miles | Distance: 1.0 | Pace: 10.00 | Training type: Strength Conditioning
 Date: August 27 (Practice) | Time ran for: 1e-26 | Distance type: none | Distance: 1e-23 | Pace: 0.00 | Training type: Yoga
+Date: August 31 (Practice) | Time ran for: 120.0 | Distance type: None | Distance: 0.0 | Pace: 0.00 | Training type: Strength Conditioning
+Date: September 1 (Practice) | Time ran for: 12.0 | Distance type: Miles | Distance: 2.0 | Pace: 6.00 | Training type: 12 Min Non-Stop Run
