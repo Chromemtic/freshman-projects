@@ -1,5 +1,6 @@
 from validate_filter import validate_filter
 
+# Receives the input
 run_date = str(input("Today's date: "))
 run_time = float(input("How long was today's run: "))
 type_of_distance = str(input("What type of distance was today's run in: "))
