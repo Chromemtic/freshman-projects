@@ -9,9 +9,10 @@ training_type = str(input("What is today's training type: "))
 
 run_date, run_time, type_of_distance, run_distance, training_type, calculated_pace = validate_filter(run_date, run_time, type_of_distance, run_distance, training_type)
 
-#Writes the data logged
+# Writes the data logged
 print(f"Date: {run_date} | Time ran for: {run_time} | Distance type: {type_of_distance} | Distance: {run_distance} | Pace: {calculated_pace:.2f} | Training type: {training_type}")
 
+# Saves the data that is typed
 with open("training_database.txt", "a") as file:
     file.write(f"Date: {run_date} | Time ran for: {run_time} | Distance type: {type_of_distance} | Distance: {run_distance} | Pace: {calculated_pace:.2f} | Training type: {training_type}\n")
 
