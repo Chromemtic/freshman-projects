@@ -1,3 +1,4 @@
+# Pulls the data-cleaning function from validate_filter.py
 from validate_filter import validate_filter
 
 # Receives the input
@@ -7,6 +8,7 @@ type_of_distance = str(input("What type of distance was today's run in: "))
 run_distance = float(input("How much distance was today's run: "))
 training_type = str(input("What is today's training type: "))
 
+# Sends the input values to the filter to clean up
 run_date, run_time, type_of_distance, run_distance, training_type, calculated_pace = validate_filter(run_date, run_time, type_of_distance, run_distance, training_type)
 
 # Writes the data logged
