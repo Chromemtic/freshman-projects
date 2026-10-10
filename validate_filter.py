@@ -1,5 +1,6 @@
 def validate_filter(run_date, run_time, type_of_distance, run_distance, training_type):
 
+    # Removes spaces and capitalizes written data for the training type and distance type
     training_type = training_type.strip().title()
     type_of_distance = type_of_distance.strip().title()
 
