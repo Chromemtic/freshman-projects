@@ -1,3 +1,5 @@
+// This engine only functions with cross_country_run_tracker.py and requires the dotnet run method to execute.
+
 using System;
 using System.IO;
 using System.Runtime.ConstrainedExecution;
@@ -6,6 +8,7 @@ class TrackXPEngine
 {
     static void Main()
     {
+        // Reads the logged traning files and counts the total lines to find where the data ends
         string[] allLines = File.ReadAllLines("training_database.txt");
         int lastIndex = allLines.Length - 1;
         while (lastIndex >= 0 && string.IsNullOrWhiteSpace(allLines[lastIndex]))
