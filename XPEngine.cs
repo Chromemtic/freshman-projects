@@ -1,7 +1,12 @@
-// This engine only functions with cross_country_run_tracker.py and requires the dotnet run method to execute.
+// This engine only functions with cross_country_run_tracker.py and requires the dotnet run method to execute
 
+// Loads the stanard toolsets of c#
 using System;
+
+// Enables file management from the computer you are on
 using System.IO;
+
+// Keeps the backend tracker running without crashing
 using System.Runtime.ConstrainedExecution;
 
 class TrackXPEngine
