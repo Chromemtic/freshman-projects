@@ -22,6 +22,7 @@ class TrackXPEngine
         }
         string pythonData = allLines[lastIndex];
        
+       // Splits the text line into separate fields 
         string[] workoutField = pythonData.Split('|');
 
         string date = workoutField[0].Replace("Date: ","").Trim();
@@ -29,6 +30,7 @@ class TrackXPEngine
         string rawTime = workoutField[1].Replace(" Time ran for: ","").Trim();
         double timeSpent = double.Parse(rawTime);
 
+        // Sets up the base points multiplier and the experience gain per minute of exercise
         double baseXp_PerMinute = 10;
         double multiplier = 1.0d;
 
